@@ -44,6 +44,7 @@ while True:
             grass.draw_now(400,30)
             character.draw_now(pos[0],pos[1])
             theta -= 0.5
+            delay(0.01)
         pos = [400,92]
         theta = -90
         clear_canvas_now()
